@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Happy Birthday"
+        android:textColor="#2c8113"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Saurya!"
+        android:textColor="#2c8113"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/wish"
+        android:layout_alignRight="@+id/wish"
+        android:layout_below="@+id/sauryaimage"
+        android:paddingRight="45dp"
+        android:paddingTop="40sp"
+        android:text="3rd Baisakh, 2073"
+        android:textColor="#e74f87"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/sauryaimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/saurya" />
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chetuimage"
+        android:layout_alignStart="@+id/chetuimage"
+        android:layout_below="@+id/sauryaimage"
+        android:paddingLeft="10dp"
+        android:paddingRight="38dp"
+        android:paddingTop="60sp"
+        android:text="&quot;Happy Birthday! We wish your day is filled with lots of happiness!!!! May all of your birthday wishes come true. &quot;"
+        android:textColor="#193504"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/salmanimage"
+        android:layout_centerHorizontal="true"
+        android:text="Special Wishes from:"
+        android:textColor="#318b14" />
+
+
+    <ImageView
+        android:id="@+id/nipeshimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nipesh" />
+
+    <ImageView
+        android:id="@+id/salmanimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/nipeshimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/salman" />
+
+    <ImageView
+        android:id="@+id/kushalimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/salmanimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kushalimage" />
+
+    <ImageView
+        android:id="@+id/chetuimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/kushalimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chetu" />
+
+    <ImageView
+        android:id="@+id/manojimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/chetuimage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/manoj" />
+
+
+</RelativeLayout>
